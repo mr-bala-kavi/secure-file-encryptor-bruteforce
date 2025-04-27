@@ -36,7 +36,7 @@ pip install -r requirements.txt
 
 1. Run the `main.py` script to encrypt a file with AES-256 encryption:
    ```bash
-   python file_encryptor.py
+   python main.py
    ```
 2. When prompted, enter the password you wish to use to encrypt the file.
 3. Select the file you want to encrypt from your file system.
