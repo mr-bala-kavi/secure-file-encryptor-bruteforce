@@ -4,15 +4,15 @@
 # Secure File Encryptor & Brute Force Decryptor
 
 This repository contains two scripts:
-1. **file_encryptor.py**: A tool for securely encrypting and decrypting files using AES-256 encryption.
-2. **brute_force_decryptor.py**: A brute-force decryption tool that attempts to decrypt a file using a list of common passwords.
+1. **main.py**: A tool for securely encrypting and decrypting files using AES-256 encryption.
+2. **brute_force.py**: A brute-force decryption tool that attempts to decrypt a file using a list of common passwords.
 
 ## Features
-- **file_encryptor.py**:
+- **main.py**:
   - Encrypts files using AES-256-GCM encryption.
   - Supports encrypting files with a user-defined password.
   - Decrypts encrypted files using the correct password.
-- **brute_force_decryptor.py**:
+- **brute_force.py**:
   - Brute-force decrypts files encrypted with AES-256-GCM.
   - Uses a list of common passwords (`password.txt`) to attempt decryption.
 
@@ -27,7 +27,7 @@ cd secure-file-encryptor-bruteforce
 ### Step 2: Install the required dependencies
 Ensure you have Python 3.10 and above installed(This is tested in Python 3.13.2). Then install the required libraries using pip:
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -78,6 +78,9 @@ password123
 qwerty
 letmein
 ```
+### Screen Shots
+
+You can find screenshots of the encryption and decryption process inside the `Screen Shots/` folder for a visual reference.
 
 ## License
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
